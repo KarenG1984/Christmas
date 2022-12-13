@@ -9,14 +9,14 @@ body {
   height: 100vh;
   background: linear-gradient(180deg, rgba(1,21,38,1) 0%, rgba(1,28,64,1) 20%, rgba(2,40,89,1) 50%);
   overflow: hidden;
-  filter: drop-shadow(0 0 10px white);
+  filter: drop-shadow(0 0 10px #F8F9F9);
 }
 
 .snow {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: white;
+  background: #F8F9F9;
   border-radius: 50%;
 }
 .snow:nth-child(1) {
@@ -2655,4 +2655,23 @@ body {
   color: #ffffff;
   font-size: 18px;
   margin-top: 10px;
+}
+
+@media (max-width:320px){
+  .title-text {
+    /* color: #ffffff; */
+    font-size: 48px;
+    /* font-weight: 700;
+    margin-top: 5px; */
+  }
+  .info-text {
+    /* color: #ffffff;
+    margin-top: 10px; */
+    font-size: 28px;
+  }
+  .desc-text {
+    /* color: #ffffff; */
+    font-size: 18px;
+    /* margin-top: 10px; */
+  }
 }
